@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mamba_manufacturing *.css
+recursive-include mamba_manufacturing *.csv
+recursive-include mamba_manufacturing *.html
+recursive-include mamba_manufacturing *.ico
+recursive-include mamba_manufacturing *.js
+recursive-include mamba_manufacturing *.json
+recursive-include mamba_manufacturing *.md
+recursive-include mamba_manufacturing *.png
+recursive-include mamba_manufacturing *.py
+recursive-include mamba_manufacturing *.svg
+recursive-include mamba_manufacturing *.txt
+recursive-exclude mamba_manufacturing *.pyc
